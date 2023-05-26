@@ -4,7 +4,7 @@ import c1 from '../../assets/c1.jpg'
 import IconNdText from '../IconNdText/IconNdText'
 const ChooseUs = () => {
   return (
-    <div className='text-black py-12 md:px-12 px-2'>
+    <div className='text-black py-12 md:px-12 px-2' id="chooseus">
       {/* text div  */}
       <div className='md:pt-20 pt-6 flex-2 md:mx-20  mx-2 px-12 min-h-[10px]  bg-bannerText rounded-3xl flex md:flex-row flex-col py-10'>
         <div className='md:w-[60%] w-full mr-4'>

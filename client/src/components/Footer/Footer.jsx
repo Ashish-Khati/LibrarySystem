@@ -1,6 +1,6 @@
 import React from 'react'
-import logo from '../../assets/logo-dark-1.png'
-import {BsFacebook} from 'react-icons/bs'
+import logo from '../../assets/Lib/logo.webp'
+import {BsFacebook, BsGithub, BsLinkedin} from 'react-icons/bs'
 import {BsTwitter} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 
@@ -49,10 +49,12 @@ const Footer = () => {
             <img src={logo} alt="" className="logo" />
         </div>
         <p >Copyright 2023 | All Rights Reserved</p>
-        <div className='flex justify-between  md:w-[10%] w-[40%] md:space-x-5 pb-10'>
-            <BsFacebook className="text-[#022279]   text-2xl md:text-4xl"/>
-            <BsTwitter className="text-[#022279]    text-2xl md:text-4xl"/>
-            <BsInstagram className="text-[#022279]  text-2xl md:text-4xl"/>
+        <div className='flex justify-between  md:w-[10%] w-[40%] md:space-x-3 pb-10'>
+           <a href="https://www.linkedin.com/in/ashish-khati-30a5161a1/">  <BsLinkedin className="text-[#022279]   text-2xl md:text-4xl"/></a>
+           <a href="https://github.com/Ashish-Khati"><BsGithub className="text-[#022279]   text-2xl md:text-4xl"/></a>
+            <a href="https://twitter.com/AshishKhati10?t=D2NiFheSt7eu2FooPRiqHw&s=09"><BsTwitter className="text-[#022279]    text-2xl md:text-4xl"/></a>
+            <a href="https://www.instagram.com/ashish._.khati/"><BsInstagram className="text-[#022279]  text-2xl md:text-4xl"/></a>
+           
         </div>
     </div>
     </div>

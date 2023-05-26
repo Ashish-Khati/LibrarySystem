@@ -1,0 +1,87 @@
+.sidebar{
+    // background-color:#082646fa;
+    background-color:#00203FFF;
+    flex:1;
+    min-height: 100vh;
+    .top{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#ffa901;
+        line-height: 27.2px;
+        .logo{
+            font-size: 20px;
+            font-weight: bold;
+            color:#fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 900;
+            text-align: center;
+
+        }
+    }
+    .center{
+        padding-left:10px;
+      
+        ul{
+            list-style: none;
+            margin:0;
+            width:260px;
+            padding:0;
+            li{
+                border-bottom: 1.5px solid black;
+                cursor: pointer;
+                padding:1rem 0;
+                text-align:justify;
+                .arrow-div{
+                    display:flex;
+                    .arrow{
+                        cursor: pointer;
+                        color:white;
+                        width:100%;
+                    //    border:2px solid red;
+                    }
+                    
+                }
+                .iconHai{
+                    color:#ffa901;
+                    margin-right: 10px;
+                    font-size: 18px;
+                    line-height: 27.2px;
+                }
+                span{
+                    font-weight: 600;
+                    color:#9ea8b5;
+                    &:hover{
+                        color:white;
+                    }
+                    
+    
+                }
+                .inner-ul{
+                    margin:0;
+                    padding:.1rem 1.5rem;
+                    background-color:#041a32;
+                    color:rgba(255, 255, 255, 0.539);
+                    li{
+                        border:none;
+                        padding:.5rem 1rem;
+
+                        &:hover{
+                            background-color:#0b3868dc;
+                            color:white;
+                        }
+                    }
+                }
+            }
+            .sidebar-logout-btn{
+                margin-top:2rem;
+                border:none;
+            }
+        }
+    }
+
+  
+    
+}

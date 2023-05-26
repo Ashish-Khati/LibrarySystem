@@ -24,7 +24,7 @@ const Testimonial = () => {
     }
   };
   return (
-<div className='text-black bg-[#f8f5ff] min-h-[500px] pb-10 '>
+<div className='text-black bg-[#f8f5ff] min-h-[500px] pb-10 ' id="testimonial">
     <div className='font-textFont pt-12 md:px-12 px-2 '>
       {/* text div  */}
          <div className='w-[60%] '>

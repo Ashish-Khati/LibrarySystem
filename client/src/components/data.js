@@ -18,7 +18,18 @@ import t1 from '../assets/tst1.jpg'
 import t2 from '../assets/tst2.jpg'
 import t3 from '../assets/tst3.jpg'
 import t4 from '../assets/tst4.jpg'
-import Services from './Services'
+// import Services from './Services'
+import b1 from '../assets/Lib/b1.webp'
+import b2 from '../assets/Lib/b2.webp'
+import b3 from '../assets/Lib/b3.jpg'
+import b4 from '../assets/Lib/b4.jpg'
+import b5 from '../assets/Lib/b5.jpg'
+import b9 from '../assets/Lib/b9.jpg'
+import b10 from '../assets/Lib/b10.webp'
+import b11 from '../assets/Lib/b11.webp'
+import b12 from '../assets/Lib/b12.webp'
+import b13 from '../assets/Lib/b13.webp'
+import b14 from '../assets/Lib/b14.webp'
 const data = [
     {
         logo: l7,
@@ -85,40 +96,51 @@ const data = [
 
 const vendorData = [
     {
-        name: 'Mohan Rawat',
-        address: "Delhi",
-        imgUrl: v1,
-        title: 'loremifuoeifwoiefawif jewfhrwjehkjqehqjh',
+        name: 'The Illuminated',
+        address: "by: Anindita Ghose",
+        imgUrl: b1,
+        title: "'When the light shifts, you see the world differently.' A superbly nuanced work of fiction, Anindita Ghose's first novel The Illuminated revolves around two women: Shashi and Tara. After the sudden death of her celebrated husband, Shashi is alarmed to realize that overnight, she has lost her life's moorings. Meanwhile, their fiercely independent daughter Tara, a Sanskrit scholar, has been drawn into a passionate involvement with an older man, which threatens to consume her in ways she did not imagine possible.Amidst a rising tide of religious fundamentalism in India that is determined to put women in their place, Shashi and Tara attempt to look at themselves, and at each other, in a new light. But is it possible to emerge from an eclipse unscathed?An astonishing feat of the imagination, The Illuminated is as sophisticated in the quality of its prose as it is provocative in its thematic focus on questions of identity. A remarkable novel of ideas, it marks the arrival of a tremendous new literary talent.",
         status: true,
     },
     {
-        name: 'Aman ',
-        address: "uttarakhand",
-        imgUrl: v2,
+        name: 'The 5 AM Club',
+        address: "Robin Sharma",
+        imgUrl: b13,
         title: 'loremifuoeifwoiefawif ',
         status: true,
     },
     {
-        name: 'Gaurav',
-        address: "Rishikesh",
-        imgUrl: v3,
+        name: 'You Can',
+        address: "George Matthew Adams",
+        imgUrl: b9,
         title: 'loremifuoeifwoiefawif ',
         status: true,
     },
+
     {
-        name: 'Ajay',
-        address: "Dehradun",
-        imgUrl: v4,
+        name: 'The Psychology of Money',
+        address: "Morgan Housel",
+        imgUrl: b14,
+        title: 'loremifuoeifwoiefawif ',
+        status: true,
+    },
+   
+    {
+        name: "The Power of Your Subconscious Mind",
+        address: "Joseph Murphy",
+        imgUrl: b10,
         title: 'loremifuoeifwoiefawif dfjsh dfhsjdluy fdjshfkjdfkjdkj dfjdk ',
         status: true,
     },
     {
-        name: 'Sohan',
-        address: "Mumbai",
-        imgUrl: v4,
+        name: 'Think and Grow Rich: THE 21st CENTURY EDITION',
+        address: "Napoleon Hill",
+        imgUrl: b11,
         title: 'loremifuoeifwoiefawif ',
         status: true,
     },
+  
+  
 ]
 
 const testimonialData = [

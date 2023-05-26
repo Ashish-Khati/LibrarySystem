@@ -11,7 +11,7 @@ const Block=(props)=>{
 
 const Statics = () => {
   return (
-    <div className='md:mx-20 md:my-20 mx-4'>
+    <div className='md:mx-20 md:my-20 mx-4' id='statics'>
         <div className='min-h-[500px] rounded-3xl  bg-bannerText flex  flex-col justify-start items-center'>
             {/* upper div  */}
             <div className=' flex items-center md:w-[60%] w-[80%]  flex-col justify-center '>
@@ -27,11 +27,11 @@ const Statics = () => {
                     <p>Providers</p>
                 </div> */}
                 <Block 
-                number='35' text="Providers" color="#7748ee" />
+                number='35' text="Authors" color="#7748ee" />
                 <Block 
                 number='49' text="Customers" color="#62b815" />
                 <Block 
-                number='02' text="Jobs" color="#feb92d" />
+                number='22' text="Services" color="#feb92d" />
                 <Block 
                 number='18' text="Categories" color="#2dbefd" />
                 

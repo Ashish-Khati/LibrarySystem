@@ -26,10 +26,10 @@ const Vendor = () => {
     }
   };
   return (
-    <div className='bg-[#f8f5ff] py-5'>
+    <div className='bg-[#f8f5ff] py-5' id="trending">
       <div className='font-textFont pt-20 md:px-12 px-4'>
-        <p className='text-btnText font-bold uppercase text-btnColor tracking-spaceBtwn'>Vendor</p>
-        <p className='text-bannerText font-semibold text-4xl py-4 font-paraFont'>Featured  Providers</p>
+        <p className='text-btnText font-bold uppercase text-btnColor tracking-spaceBtwn'>Trending</p>
+        <p className='text-bannerText font-semibold text-4xl py-4 font-paraFont'>Trending Books</p>
       </div>
       {/* <div className='grid lg:grid-cols-3 justify-center mx-5 border'> */}
       <Carousel responsive={responsive}

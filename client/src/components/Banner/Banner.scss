@@ -21,3 +21,15 @@
     animation: moveblue 5s infinite linear;
     -webkit-animation: moveblue 5s infinite linear;
 }
+
+.outerbannerdiv{
+    background-image: url('../../assets/Lib/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    // background-size: contain;
+    // border:3px solid red;
+    min-height: 100vh;
+
+}

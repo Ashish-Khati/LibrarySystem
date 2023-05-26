@@ -15,9 +15,12 @@ const Login = () => {
     try {
       const url = "http://localhost:8080/login-user";
       const res = await axios.post(url, data);
-
-      if (res.data === 1) {
-        window.location = "/";
+      console.log(res.data.data)
+      if (res.status === 201) {
+        alert("Login Successfully");
+        window.localStorage.setItem("token",res.data.data)
+        window.localStorage.setItem("loggedIn",true)
+        window.location = "/user";
       }
       else if (res.data === 0) {
         setError("Your email is incorrect")
@@ -44,6 +47,10 @@ const Login = () => {
           <div className='flex-2 flex flex-col items-center justify-center bg-white rounded-t-lg rounded-b-lg'>
             <form action="" className='flex flex-col items-center m-8' onSubmit={handleSubmit}>
               <h1 className='md:mb-6  my-4 text-black text-2xl text-extrabold self-center'>Login to Your Account</h1>
+                <select name="" className='rounded-lg  text-black bg-[#edf5f3] mx-[5px] outline-none border-none m-2 w-60 md:w-80 md:p-3.5 p-2 text-[14px]' id="">
+                  <option value="admin">Admin</option>
+                  <option value="user">User</option>
+                </select>
               <input type="email" name="email" placeholder='Email' value={data.email} onChange={onChangeHandle}
                 required className='rounded-lg text-black bg-[#edf5f3] mx-[5px] outline-none border-none m-2 w-60 md:w-80 md:p-3.5 p-2 text-[14px]' />
               <input type="password" name="password" placeholder='Password' value={data.password} onChange={onChangeHandle}

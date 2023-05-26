@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/logo-dark-1.png'
+import logo from '../../assets/Lib/logo.webp'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import HeaderToggle from '../HeaderToggle/HeaderToggle'
 import { useState } from 'react'
@@ -31,12 +31,12 @@ const Header = () => {
       {/* desktop navbar  */}
        <nav className='hidden md:block'>
             <ul className='flex text-black font-bold text-sm uppercase space-x-10 mr-10'>
-               <Link to="/"> <li><a className='hover:text-btnColor' href="home">Home</a></li></Link>
-                <li><a className='hover:text-btnColor' href="">Categories</a></li>
-                <li><a className='hover:text-btnColor' href="">About</a></li>
-                <li><a className='hover:text-btnColor' href="jobs">Jobs</a></li>
-                <Link to="/careers"><li><a className='hover:text-btnColor' href="">Careers</a></li></Link>
-                <li><a className='hover:text-btnColor' href="contact">Contact </a></li>
+               <Link to="/"> <li><a className='hover:text-btnColor' href="#home">Home</a></li></Link>
+                <li><a className='hover:text-btnColor' href="#trending">Trending</a></li>
+                <li><a className='hover:text-btnColor' href="#chooseus">Choose us</a></li>
+                <li><a className='hover:text-btnColor' href="#testimonial">Testimonials</a></li>
+                {/* <Link to="/careers"><li><a className='hover:text-btnColor' href="">Careers</a></li></Link> */}
+                <li><a className='hover:text-btnColor' href="#statics">Statics </a></li>
             </ul>
         </nav>
        </div>

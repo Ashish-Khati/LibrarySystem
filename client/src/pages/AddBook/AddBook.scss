@@ -1,0 +1,34 @@
+.addbook-div-section{
+    width:75vw;
+    margin-left:2rem;
+    margin-bottom:1rem;
+    border-radius: 10px;
+    padding:1rem;
+    -webkit-box-shadow:  2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow:  2px 4px 10px 1px rgba(201,201,201,0.47);
+    .addbook-header{
+    display: flex;
+                margin:0 1rem;
+                justify-content: space-between;
+                border-radius:15px;
+                div{
+                    margin:1rem;
+                    h2{
+                       
+                        margin:0;
+                    }
+                    h4{
+                        text-align: center;
+                        margin: 0;
+                    }
+                }
+            span    
+            {
+                font-size: 2rem;
+                margin-right:1rem;
+                color:grey;
+                cursor: pointer;
+               
+            }
+}
+}
